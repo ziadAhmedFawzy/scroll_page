@@ -79,6 +79,7 @@ body {
     animation-name: up-down;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    cursor: pointer;
 }
 
 @keyframes up-down {
@@ -97,9 +98,10 @@ body {
 }
 
 .parent {
-    height: 5500px;
+    height: 10000px;
     background-image: url("../data/2.jpg");
     background-size: contain;
+    background-color: #000000c4;
 }
 
 .footer {
