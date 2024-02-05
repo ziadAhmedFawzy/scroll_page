@@ -1,0 +1,27 @@
+@media screen and (max-width: 1215px) {
+    .container {
+        height: 1000px;
+    }
+    .container .main video {
+        height: 104%;
+        width: initial;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .container .main h2 {
+        font-size: 25px;
+    }
+    .container .main h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container .main h2 {
+        font-size: 18px;
+    }
+    .container .main h3 {
+        font-size: 23px;
+    }
+}
