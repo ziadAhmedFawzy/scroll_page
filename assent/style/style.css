@@ -65,3 +65,33 @@ body {
     z-index: -1;
     width: 100%;
 }
+
+.container button {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: #fff;
+    color: #009688;
+    animation-name: up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes up-down {
+    0% {
+        position: relative;
+        top: 0px;
+    }
+    50% {
+        position: relative;
+        top: 20px;
+    }
+    100% {
+        position: relative;
+        top: 0px;
+    }
+}
